@@ -1,9 +1,5 @@
 
-.header .header-page {
-	/*
-	background-color: #f58d50 !important;  */
-}
-
+/****************************************************** Header Page *******************************************************/
 .header .header-page ul li a {
 	color: white !important;
 }
@@ -13,6 +9,8 @@
   	margin-bottom: 80px;
 }
 
+
+/****************************************************** Login Page *******************************************************/
 .form-signin {
 	max-width: 380px;
   	padding: 15px 35px 45px;
@@ -53,3 +51,41 @@
 	  border-top-left-radius: 0;
 	  border-top-right-radius: 0;
 }
+
+/****************************************************** Project List Page *******************************************************/
+	
+	
+	
+/****************************************************** Project Detail Page *******************************************************/
+.project-detail {
+
+}
+.project-detail .project-infor .infor {
+	margin: 25px 0px 25px;
+}
+.project-detail .project-infor .introduction {
+	display: flex;
+}
+.project-detail .project-infor .introduction .image {
+	padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.project-detail .project-infor .introduction .image img {
+	height: 400px;
+}
+.project-detail .project-infor .introduction .title {
+	font-size: 20px;
+}
+.project-detail .project-infor .infor h5 {
+	font-size: 14px;
+    font-weight: 400;
+    color: #FFF;
+    background-color: #92D050;
+    text-align: left;
+    margin-bottom: 0px;
+    line-height: 20px;
+    padding: 5px 10px;
+}
+
+
+	

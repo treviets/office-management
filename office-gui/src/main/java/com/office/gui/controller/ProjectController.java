@@ -40,6 +40,18 @@ public class ProjectController extends BaseController {
 		
 		return project;
 	}
+	
+	@GetMapping(path = "/detail/")
+	public String viewProjectDetail() {
+		// Get Detail Information of Project by Id
+		/*
+		 * Not yet implement
+		 */
+		
+		
+		// Return to view
+		return "project-detail";
+	}
 
 	
 }

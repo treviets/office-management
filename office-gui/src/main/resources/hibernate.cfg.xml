@@ -10,7 +10,7 @@
 		<property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
 		<property name="hibernate.connection.username">postgres</property>
 		<property name="hibernate.connection.password">postgre</property>
-		<property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/hrstudio_service</property>
+		<property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/office_gui</property>
 		<!-- <property name="hibernate.hbm2ddl.auto">create</property> -->
 		
 		<property name="hibernate.c3p0.min_size">5</property>

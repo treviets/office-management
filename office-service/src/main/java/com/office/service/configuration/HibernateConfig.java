@@ -15,7 +15,6 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.core.env.Environment;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
-import org.springframework.orm.hibernate5.HibernateTransactionManager;
 import org.springframework.orm.hibernate5.LocalSessionFactoryBean;
 import org.springframework.orm.jpa.JpaTransactionManager;
 import org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean;
@@ -68,16 +67,6 @@ public class HibernateConfig {
 
 		return entityManagerFactoryBean;
 	}
-
-//	@Bean
-//	public HibernateTransactionManager getTransactionManager() {
-//		HibernateTransactionManager transactionManager = new HibernateTransactionManager();
-//
-//		transactionManager.setSessionFactory(getSessionFactory().getObject());
-//
-//		return transactionManager;
-//	}
-//	
 	
 	@Bean
 	@Qualifier(value = "transactionManager")
@@ -96,7 +85,7 @@ public class HibernateConfig {
 		dataSource.setDriverClassName("org.postgresql.Driver");
 		dataSource.setUrl("jdbc:postgresql://localhost:5432/office_service");
 		dataSource.setUsername("postgres");
-		dataSource.setPassword("postgre");
+		dataSource.setPassword("root");
 
 		return dataSource;
 	}

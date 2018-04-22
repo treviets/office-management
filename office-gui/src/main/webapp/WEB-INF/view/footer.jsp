@@ -4,11 +4,9 @@
 <c:set var="contextPath" value="<%=getServletContext().getContextPath()%>" />
 
 	<div class="footer-left">
-
-		<h3>Company<span>logo</span></h3>
-
-		<div class="footer-links">
+		<img class="company-logo" src="${contextPath}/static/image/cis-logo.png">
 		
+		<div class="footer-links">
 			<p><a href="#">Home</a></p>
 			<p><a href="#">Project Management</a></p>
 			<p><a href="#">Task Management</a></p>
