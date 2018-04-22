@@ -23,10 +23,8 @@
 			<%@ include file="header.jsp" %>
 		</header>
 		
-		
-	
 		<section>
-			<%@ include file="project.jsp" %>
+			<%@ include file="project-list.jsp" %>
 			
 		</section>
 		
