@@ -2,6 +2,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 
 <c:set var="contextPath" value="<%= getServletContext().getContextPath()%>" />
+<c:url var="sprintDetailUrl" value="/sprint/detail/"/>
 
 <div class="project-list">
 	<div class="project-item col-xs-3 col-md-3">
@@ -17,7 +18,7 @@
 	                     <p class="lead">$21.000</p>
 	                 </div>
 	                 <div class="col-xs-12 col-md-6">
-	                     <a class="btn btn-success" href="${projectDetailUrl}">View detail</a>
+	                     <a class="btn btn-success" href="${sprintDetailUrl}">View Sprint detail</a>
 	                 </div>
 	             </div>
 	         </div>
@@ -37,7 +38,7 @@
 	                     <p class="lead">$21.000</p>
 	                 </div>
 	                 <div class="col-xs-12 col-md-6">
-	                     <a class="btn btn-success" href="${projectDetailUrl}">View detail</a>
+	                      <a class="btn btn-success" href="${sprintDetailUrl}">View Sprint detail</a>
 	                 </div>
 	             </div>
 	         </div>
@@ -57,7 +58,7 @@
 	                     <p class="lead">$21.000</p>
 	                 </div>
 	                 <div class="col-xs-12 col-md-6">
-	                     <a class="btn btn-success" href="${projectDetailUrl}">View detail</a>
+	                      <a class="btn btn-success" href="${sprintDetailUrl}">View Sprint detail</a>
 	                 </div>
 	             </div>
 	         </div>

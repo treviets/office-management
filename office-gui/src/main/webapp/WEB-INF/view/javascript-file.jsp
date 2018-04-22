@@ -12,10 +12,5 @@
 <script src="${contextPath}/static/js/controller/ProjectController.js"></script>
 
 <script src="${contextPath}/static/js/controller/TaskController.js"></script>
-
-
-
-
-
 <script src="${contextPath}/static/js/service/ProjectService.js"></script>
 <script src="${contextPath}/static/js/service/TaskService.js"></script>
