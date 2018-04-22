@@ -18,13 +18,12 @@
 		<%@ include file="css-file.jsp" %>
 	</head>
 	
-	<body>
+	<body ng-app="office">
 		<header class="header">
 			<%@ include file="header.jsp" %>
 		</header>
 		
 		<section>
-		<%-- 	<%@ include file="project-list.jsp" %> --%>
 			<dec:body />
 		</section>
 		

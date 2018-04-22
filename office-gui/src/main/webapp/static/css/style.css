@@ -1,8 +1,18 @@
 
 /****************************************************** Header Page *******************************************************/
-.header .header-page ul li a {
-	color: white !important;
+.header .header-page {
+	border-radius: 0px !important;
+	background-color: #cadbeb !important;
+    border-color: #cadbeb !important;
+   
 }
+
+.header .header-page ul li a {
+	color: #0070b1 !important;
+	font-size: 20px;
+}
+
+
 
 .wrapper {	
 	margin-top: 80px;
@@ -87,5 +97,72 @@
     padding: 5px 10px;
 }
 
+/****************************************************** Sprint Page *******************************************************/
+.sprint-detail table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.sprint-detail td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.sprint-detail .sprint-drap-drop {
+	height: 500px;
+	width: 100%;
+	display: flex;
+}
+.sprint-detail .sprint-drap-drop >* {
+	width: 25%;
+}
+
+.sprint-detail .sprint-drap-drop .to-do {
+	border: 1px solid blue;
+}
+
+.sprint-detail .sprint-drap-drop .in-progress {
+	border: 1px solid green;
+}
+
+.sprint-detail .sprint-drap-drop .done {
+	border: 1px solid red;
+}
+
+.sprint-detail .sprint-drap-drop .compeleted {
+	border: 1px solid black;
+}
+
+.simpleDemo ul[dnd-list] {
+    min-height: 42px;
+    padding-left: 0px;
+}
+
+.simpleDemo ul[dnd-list] .dndDraggingSource {
+    display: none;
+}
+
+.simpleDemo ul[dnd-list] .dndPlaceholder {
+    background-color: #ddd;
+    display: block;
+    min-height: 42px;
+}
+
+.simpleDemo ul[dnd-list] li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+}
+
+.simpleDemo ul[dnd-list] li.selected {
+    background-color: #dff0d8;
+    color: #3c763d;
+}
 
 	

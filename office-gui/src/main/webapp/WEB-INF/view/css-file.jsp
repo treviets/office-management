@@ -1,6 +1,12 @@
 <link rel="stylesheet" href="${contextPath}/static/lib/bootstrap/css/bootstrap.min.css" />
+<link rel="stylesheet" href="${contextPath}/static/lib/bootstrap/css/bootstrap-theme.min.css" />
+
+<link rel="stylesheet" href="${contextPath}/static/lib/vendor/prism.css" />
+
 <link rel="stylesheet" href="${contextPath}/static/css/style.css" />
 <link rel="stylesheet" href="${contextPath}/static/css/footer.css" />
+
+
 
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
 
