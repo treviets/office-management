@@ -16,7 +16,7 @@ public class LoginController {
     @PostMapping(path = "/login")
     public String navigate() {
     	
-    	return "main-layout";
+    	return "project-list";
     }
    
 

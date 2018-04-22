@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-
+<%@ taglib uri="http://www.opensymphony.com/sitemesh/decorator" prefix="dec" %>
 <c:set var="contextPath" value="<%=getServletContext().getContextPath()%>" />
 
 <!DOCTYPE html>
@@ -24,7 +24,8 @@
 		</header>
 		
 		<section>
-			<%@ include file="project-list.jsp" %>
+		<%-- 	<%@ include file="project-list.jsp" %> --%>
+			<dec:body />
 		</section>
 		
 	
