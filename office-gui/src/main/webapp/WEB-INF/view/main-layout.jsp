@@ -25,7 +25,6 @@
 		
 		<section>
 			<%@ include file="project-list.jsp" %>
-			
 		</section>
 		
 	
